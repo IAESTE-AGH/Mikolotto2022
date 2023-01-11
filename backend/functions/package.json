@@ -1,0 +1,25 @@
+{
+  "name": "mikoapi",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Mikolotto Backend API",
+  "main": "index.js",
+  "engines": {
+        "node": "8"
+      },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemailer": "^6.3.1",
+    "xmlhttprequest": "^1.8.0",
+    "firebase-functions": "",
+    "firebase": "8.3.1"
+  }
+}

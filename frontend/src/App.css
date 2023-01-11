@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+
+.App {
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  text-align: center;
+  height: 90%;
+  width: 50%;
+  margin: 4% 25% 4% 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.App h1 {
+  font-size: 3rem;
+  font-family: 'Alatsi', sans-serif;
+  color: #B31315;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 0;
+}
+
+.App div {
+  color: #6FB6CC;
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.App label {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1%;
+}
+
+.App label input {
+  border: dashed #A6001D;
+  border-radius: 3px;
+  height: 2rem;
+  width: 50%;
+  font-size: 1.3rem;
+}
+
+.App textarea {
+  resize: none;
+  border: dashed #A6001D;
+  border-radius: 3px;
+  width: 80%;
+  height: 15rem;
+  font-family: 'Mountains of Christmas', serif;
+  font-size: 1.4rem;
+}
+
+.submit-btn {
+  width: 20%;
+  height: 2rem;
+  font-size: 1.2rem;
+  border: none;
+  margin: auto;
+  background-color: #B31315;
+  border-radius: 3px;
+  color:white;
+}
+
+.App h3 {
+  margin: 0;
+}
+
+.App p {
+  margin-bottom: 1%;
+  margin-top: 0.5%;
+}
+
+@media only screen and (max-width: 900px){
+  .App {
+    width: 100%;
+    margin: 15% 0 0 0;
+  }
+}
